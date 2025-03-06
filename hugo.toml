@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Paul Walker's Blog"
+theme = "hugo-blog-awesome"
+enableGitInfo = true
+
+# Social icons
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/kasualkid12"
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/pauldwalkeriii/"
+
+[menu]
+  [[menu.main]]
+    pageRef = "/"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    pageRef = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+  [[menu.main]]
+    name = "Return to Portfolio"
+    url = "https://www.kasu-it.dev/"
+    weight = 30
+
+[params]
+  goToTop = true
+
+[params.author]
+  avatar = "avatar.webp"
+  intro = "Software Engineering Blog"
+  name = "Paul D Walker III"
+  description = "Welcome to my blog where I share my adventures in software engineering, and thoughts on technologies."

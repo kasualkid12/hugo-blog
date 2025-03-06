@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Paul Walker&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Paul Walker&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Mar 2025 16:14:09 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adventures with C&#43;&#43;: Bitwise Operators</title>
+      <link>http://localhost:1313/posts/bitwise-operators/bitwise-operators/</link>
+      <pubDate>Thu, 06 Mar 2025 16:14:09 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/bitwise-operators/bitwise-operators/</guid>
+      
+      <description>&lt;h1 id=&#34;adventures-with-c-bitwise-operators&#34;&gt;Adventures with C++: Bitwise Operators&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Today I learned about &lt;a href=&#34;https://en.cppreference.com/w/cpp/language/operator_arithmetic&#34;&gt;bitwise operators&lt;/a&gt;, which are interesting, because they are similar to &lt;a href=&#34;https://en.cppreference.com/w/cpp/language/operator_arithmetic&#34;&gt;arithmetic operators&lt;/a&gt;. There is a bit difference though, instead of manipulating the numbers themselves, bitwise opotators will instead manipulate the bits and bytes used by the numbers.&lt;/p&gt;
+&lt;h2 id=&#34;bits-and-bytes&#34;&gt;Bits and Bytes&lt;/h2&gt;
+&lt;p&gt;To understand how bitwise oporators work, first we need to understand bits and bytes. So, what is a bit? Simply put a bit is a base-2 number, a bit is either on, 1, or off, 0. When you compare it to our base-10 numbering system, we can count from &lt;code&gt;0 to 9&lt;/code&gt; before having to add an extra column, the &amp;ldquo;1&amp;rdquo; in 10. In a base-2 system you only have 0 and 1, so, 0 and 1 will stay as is, but the equivilent of &lt;code&gt;2&lt;/code&gt;? You&amp;rsquo;re going to have to add a second column, &lt;code&gt;10&lt;/code&gt;. What about &lt;code&gt;3&lt;/code&gt;? That&amp;rsquo;s going to be &lt;code&gt;11&lt;/code&gt;. On &lt;code&gt;4&lt;/code&gt; we need to add our 3rd column, &lt;code&gt;100&lt;/code&gt;. Now what are bytes? Bytes are a group of &lt;code&gt;8 bits&lt;/code&gt;, and based on the instructions given to the computer, it will interprate the bytes a certain way. In this case, we are keeping it simple, we just want to count with bytes. So the number &lt;code&gt;4&lt;/code&gt; from before if we include all 8 bits in a byte will look like &lt;code&gt;00000100&lt;/code&gt;. Now that we know how bits and bytes work, what&amp;rsquo;s the largest base-10 number a byte can count to?&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
