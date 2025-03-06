@@ -5,8 +5,7 @@
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Paul Walker&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 06 Mar 2025 16:14:09 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adventures with C&#43;&#43;: Bitwise Operators</title>
       <link>http://localhost:1313/posts/bitwise-operators/bitwise-operators/</link>
